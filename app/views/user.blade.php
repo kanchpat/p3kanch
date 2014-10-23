@@ -21,7 +21,7 @@ Developer Tools
 
 {{ Form::label('search','Enter number of users you would like to generate') }}
 
-{{ Form::text('query'); }}
+{{ Form::text('UserEntry'); }}
 
 {{ Form::label('details','Details included') }}
 {{ Form::label('profile','Profile') }}

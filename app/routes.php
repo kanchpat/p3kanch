@@ -22,8 +22,6 @@ Route::post('/', function()
         return View::make('user');
     if (Input::has('Paragraph'))
         return View::make('para');
-    if (Input::has('Password'))
-        echo "i am here";
 });
 
 

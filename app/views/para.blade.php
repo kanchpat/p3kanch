@@ -17,14 +17,13 @@ Developer Tools
 @stop
 
 @section('content')
-
 {{ Form::open(array('url' => '/para', 'method' => 'POST')) }}
 
 {{ Form::label('search','Enter number of paragraph you would like to generate') }}
 
-{{ Form::text('query'); }}
+{{ Form::text('NoOfParagraphs'); }}
 
-{{ Form::submit('Search'); }}
+{{ Form::submit('Search');}}
 
 {{ Form::close() }}
 

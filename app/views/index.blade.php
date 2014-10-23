@@ -6,25 +6,23 @@ Welcome to Developer Tools
 
 @section('head')
 Developer Tools
+<br>
+-Kanchana Santhanakrishnan
 @stop
 
 @section('content')
-They are intended for the purpose to assist Developers with mock up information.<br>
-User Generator - Generates User information including Profile and address <br>
-Paragraph Generator - Generates paragraph information<br>
-Password Generator - Generates password</br>
+<br>Lorem Ipsum Generator and fabricator for random users.<br>
 @stop
 
 @section('buttons')
 {{ Form::open(array('url' => '/', 'method' => 'POST')) }}
-{{ Form::submit('User Generator'); }}
+{{ Form::submit('User Fabricator'); }}
 {{ Form::hidden('Users',1); }}
 {{ Form::close() }}
+<br>
+<br>
 {{ Form::open(array('url' => '/', 'method' => 'POST')) }}
-{{ Form::submit('Paragraph Generator'); }}
+{{ Form::submit('Lorem Ipsum Generator'); }}
 {{ Form::hidden('Paragraph',1); }}
-{{ Form::close() }}
-{{ Form::submit('Password Generator'); }}
-{{ Form::hidden('Password',1); }}
 {{ Form::close() }}
 @stop

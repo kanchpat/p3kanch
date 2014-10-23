@@ -1,20 +1,47 @@
 body{
 background: #ffffff;
-    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;;
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #414a51;
+    font-weight: 400;
 }
-.buttons{
-    font-size: 22px;
-    font-family: 'Waiting for the Sunrise',cursive !important;;
-    background: -webkit-gradient(top,#53a51d 0%,#75b74a 100%);
-    border-width:0;
-    display:block;
-    padding:12px 20px;
-    color: #53a51d;
-    margin: 13px 0 10px;
-    text-decoration: none;
-    border-radius: 6px;
-    box-shadow: rgba(0,0,0,0.25) 0 1px 3px;
+.buttons {
+border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    padding: 5px 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+     vertical-align: middle;
+    text-align: center;
 }
 .content{
     font-weight:normal;
+    text-align: center;
+}
+.header{
+color:#444;
+    line-height:3.0;
+    font-size: 1.0em;
+    padding: 1.5em 0 0.5em;
+    text-transform: none;
+    border-radius:.5em;
+    border: 1px solid;
+    background-color: #afeeee;
+    text-align: center;
+}
+.errors{
+    color: #D8000C;
+//    background-color: #FFBABA;
+//    border-radius:.5em;
+//    border: 1px solid;
+}
+.body{
+
+}
+.result{
+    font-size: 1em;
+}
+.back{
+
 }

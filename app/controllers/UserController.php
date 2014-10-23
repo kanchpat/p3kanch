@@ -16,9 +16,9 @@ class UserController extends BaseController {
 
     public function showUser()
     {
-        $noOfUsers=Input::get('query');
+        $noOfUsers=Input::get('UserEntry');
         $rules=array(
-            'query'    => 'required',
+            'UserEntry'    => 'required|numeric',
         );
         $validator = Validator::make(Input::all(),$rules);
         if($validator->fails())
@@ -36,6 +36,7 @@ class UserController extends BaseController {
                 $profile=Input::get('Profile');
                 if ($profile == 1)
                     $dataReturn=$dataReturn.$faker->text()."<br>";
+                $dataReturn=$dataReturn."<br>";
             }
             return View::make('/user')->with('dataReturn',$dataReturn);
         }
@@ -43,9 +44,9 @@ class UserController extends BaseController {
 
     public function showParagraph()
     {
-        $noOfParagraphs=Input::get('query');
+        $noOfParagraphs=Input::get('NoOfParagraphs');
         $rules=array(
-            'query'    => 'required',
+            'NoOfParagraphs'    => 'required|numeric',
         );
         $validator = Validator::make(Input::all(),$rules);
         if($validator->fails())
