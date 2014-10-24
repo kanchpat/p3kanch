@@ -5,15 +5,17 @@ Welcome to Developer Tools
 @stop
 
 @section('head')
-Developer Tools
+Developer's Best Friend
 <br>
 -Kanchana Santhanakrishnan
 @stop
 
 @section('content')
-<br>Lorem Ipsum Generator and fabricator for random users.<br>
+<br>Lorem Ipsum Generator - Filler text created randomly &&
+<br>Fabricator for random users<br>
 @stop
 
+//Submit buttons using the Form laravel
 @section('buttons')
 {{ Form::open(array('url' => '/', 'method' => 'POST')) }}
 {{ Form::submit('User Fabricator'); }}

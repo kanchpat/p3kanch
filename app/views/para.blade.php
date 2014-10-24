@@ -9,13 +9,13 @@ Developer Tools
 @stop
 
 @section('errors')
-    @if($errors->has())
-        @foreach ($errors->all() as $error)
-        {{$error}}
-        @endforeach
-    @endif
+@if($errors->has())
+@foreach ($errors->all() as $error)
+{{$error}}
+@endforeach
+@endif
 @stop
-
+//Post the appropriate route for processing
 @section('content')
 {{ Form::open(array('url' => '/para', 'method' => 'POST')) }}
 
