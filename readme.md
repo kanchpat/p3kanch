@@ -1,25 +1,24 @@
-## Laravel PHP Framework
+## Create a Lorem Ipsum generator and User Fabricator using Laravel basics
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Live URL
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+Visit [my link](http://p3.kanch.me)
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+## Description
+1. Creating a new Laravel app
+2. Installing and using Composer packages
+3. Routing basics and views
+4. Deploying in the server
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Demo
 
-## Official Documentation
+ Screen cast
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+## Details for teaching team
+ 1. Completely used Laravel framework. (This includes Form, Validator, Controllers)
+ 2. Blade Template was used between the master and childs (Index, User and Paragraph)
 
-### Contributing To Laravel
+##Outside code
+Code Bright
+[Scotch.io](http://scotch.io/tutorials/php/laravel-form-validation)
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
