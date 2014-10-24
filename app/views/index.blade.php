@@ -15,7 +15,6 @@ Developer's Best Friend
 <br>Fabricator for random users<br>
 @stop
 
-//Submit buttons using the Form laravel
 @section('buttons')
 {{ Form::open(array('url' => '/', 'method' => 'POST')) }}
 {{ Form::submit('User Fabricator'); }}
