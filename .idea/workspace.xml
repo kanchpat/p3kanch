@@ -22,17 +22,7 @@
     <favorites_list name="p3" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.43133804" vertical-offset="27" max-vertical-offset="595">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -54,11 +44,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/css/styleforpwdgen.css" />
         <option value="$PROJECT_DIR$/app/views/_master.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/para.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/user.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/para.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/user.blade.php" />
       </list>
     </option>
   </component>
@@ -251,7 +241,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="5" y="0" width="1361" height="728" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -463,13 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="5" selection-start="853" selection-end="853" vertical-scroll-proportion="0.89612675" vertical-offset="239" max-vertical-offset="850">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="0" selection-start="1594" selection-end="1594" vertical-scroll-proportion="1.346831" vertical-offset="0" max-vertical-offset="867">
@@ -491,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/para.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="648" selection-end="648" vertical-scroll-proportion="0.9859155" vertical-offset="120" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="1" selection-start="2916" selection-end="2916" vertical-scroll-proportion="0.82042253" vertical-offset="707" max-vertical-offset="1275">
@@ -508,6 +484,20 @@
     <entry file="file://$PROJECT_DIR$/public/css/styleforpwdgen.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="23" selection-start="0" selection-end="815" vertical-scroll-proportion="0.055555556" vertical-offset="273" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="0.11795775" vertical-offset="239" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/para.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="0.3274648" vertical-offset="120" max-vertical-offset="782">
           <folding />
         </state>
       </provider>

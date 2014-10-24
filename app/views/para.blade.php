@@ -15,7 +15,7 @@ Developer Tools
 @endforeach
 @endif
 @stop
-//Post the appropriate route for processing
+
 @section('content')
 {{ Form::open(array('url' => '/para', 'method' => 'POST')) }}
 

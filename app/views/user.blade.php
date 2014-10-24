@@ -16,7 +16,6 @@ Developer Tools
 @endif
 @stop
 
-//Show the form and post the appropriate form for results
 @section('content')
 {{ Form::open(array('url' => '/user', 'method' => 'POST')) }}
 
