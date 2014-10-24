@@ -17,7 +17,7 @@ Visit [my link](http://p3.kanch.me)
 ## Details for teaching team
  1. Completely used Laravel framework. (This includes Form, Validator, Controllers)
  2. Blade Template was used between the master and childs (Index, User and Paragraph)
- 3. Website Speed 237 ms
+ 3. Website Speed 237 ms as per [http://tools.pingdom.com]
 
 ##Outside code
 Code Bright
